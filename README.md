@@ -82,3 +82,21 @@ Prompt injection assessments
 All levels relate to:
 
 LLM01 – Prompt Injection
+
+---
+
+## Key Security Findings
+
+This lab demonstrates that LLM guardrails can be bypassed through structured prompt-injection techniques even when multiple protection layers are enabled.
+
+Observed weaknesses:
+
+* reflection-based instruction leakage
+* transformation bypass using encoding
+* segmentation-based token reconstruction
+* hidden context recall exposure
+* intent classifier evasion
+* multi-step semantic chaining attacks
+
+These findings map directly to OWASP LLM01 – Prompt Injection risks in production AI systems.
+
